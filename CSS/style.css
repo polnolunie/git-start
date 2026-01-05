@@ -1,5 +1,78 @@
-div {
-  border: solid 1px gray;
-  background-color: beige;
-  border-radius: 30%;
+@font-face {
+  font-family: Barlow;
+  src: url(E:\Opera\barlow);
+  color: #2A4A5C;
+  font-display: swap;
+}
+
+body {
+  font-family: Barlow, Arial, sans-serif;
+  background-color: #EFF6FF;
+  margin: 50px;
+  color: #2A4A5C;
+}
+
+main {
+  display: flex;
+  max-width: 1000px;
+  margin: 0;
+  background:#fff;
+  display:flex;
+  box-shadow:0 20px 20px rgba(0,0,0,.08);
+}
+
+h3 {
+  color: #7B8A92;
+}
+
+img {
+  position: relative;
+  right: 35px;
+}
+
+.leftimg {
+  flex: 1;
+  width: 50%;
+  background:url("images/bg.jpg") center/cover no-repeat;
+  height: 600px;
+}
+
+.right {
+  flex: 1;
+  width: 50%;
+  background-color: #ffffff;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+button {
+  padding: 8px;
+  padding-left: 17px;
+  padding-right: 20px;
+}
+
+.facebook {
+  color:#EFF6FF;
+  background-color: #255A9B;
+  border: none;
+  padding: 10px 50px;
+}
+
+.linkedin {
+  color:#EFF6FF;
+  background-color: #0076B6;
+  border: none;
+  padding: 10px 50px;
+}
+
+.divider {
+  text-align: center;
 }
