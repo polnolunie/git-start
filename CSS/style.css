@@ -150,18 +150,6 @@ input::placeholder {
   margin-bottom: 4px;
 }
 
-.investor {
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 4px;
-}
-
-.investor-sub {
-  font-size: 12px;
-  color: #7B8A92;
-  margin-bottom: 12px;
-}
-
 .investor-sub {
   font-size: 12px;
   color: #7B8A92;
@@ -183,13 +171,50 @@ input::placeholder {
   color: #7B8A92;
 }
 
+label [type="checkbox"] {
+  transform: scale(0.5);
+}
+
+.box {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .checkbox {
   display: flex;
   align-items: flex-start;
   gap: 8px;
-  font-size: 11px;
+  font-size: 8px;
   color: #7B8A92;
   margin-bottom: 22px;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.info-icon {
+  border-radius: 50%;
+  border: solid 3px #a7adb6;
+  color: #a7adb6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 10;
+  bottom: 125%;
+  margin-left: -60px;
 }
 
 form {
