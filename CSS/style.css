@@ -37,14 +37,14 @@ h3 {
 }
 
 .leftimg {
-  width: 55%;
+  width: 60%;
   background:url("images/bg.jpg") center/cover no-repeat;
   height: auto;
   min-height: 200px;
 }
 
 .right {
-  width: 45%;
+  width: 40%;
   background-color: #ffffff;
   padding: 40px 40px;
   display: flex;
@@ -63,7 +63,7 @@ h3 {
   display: flex;
   gap: 25px;
   margin-bottom: 30px;
-  justify-content: center;
+  justify-content: flex-start;
    cursor: pointer;
    z-index: 12;
 }
@@ -115,7 +115,7 @@ h3 {
 
 section {
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
   gap: 25px;
 }
@@ -194,7 +194,7 @@ input::placeholder {
 
 form {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .Account-b {
