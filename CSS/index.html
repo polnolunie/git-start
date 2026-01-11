@@ -1,87 +1,128 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Верстка 1</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-    <img 
-    class="logo" 
-    src="images/logo.svg"
-    width="auto"
-    height="15px">
-    <div class="leftimg"></div>
-    <div class="right">
-      <h3>Get iintoo it today</h3>
-     <p class="sub">
-      There is no charge or obligation upon registration.
-     </p>
-      <div class="social-b">
-        <button class="facebook"> 
-         <img class="img" 
-         src="images/facebook.svg" 
-         width="15"> 
-         <span>Register with Facebook</span>
-        </button>
-        <button class="linkedin"> 
-         <img class="img"
-         src="images/linkedin.svg" 
-         width="15"> 
-         <span>
-          Register with LinkedIn
-         </span>
-        </button>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>services</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="service">Услуги и сервисы</h1>
+      <p>Оставить заявку <img src="/img/repair.svg" alt="repair icon"></p>
+      <p>Статус ремонта</p>
+      <nav class="navigation">
+        <ul>
+          <li>Ремонтируемые бренды</li>
+          <li>Ремонтируемые устройства</li>
+          <li>Цены на услуги</li>
+          <li>Адреса сервисных центров</li>
+          <li>Специальные цены</li>
+          <li>Отзывы</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content1">
+        Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+        Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
+        гарантией производителя.
       </div>
-      <div class="divider">
-        <hr class="line">
-        <span class="or">OR</span>
-        <hr class="line">
+      <div class="content2">
+        Мы успешно работаем с 1992 года и заслужили репутацию надежного
+        партнера, что подтверждает большое количество постоянных клиентов. Мы
+        гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь,
+        советуют нас родным и близким.
       </div>
-   <section class="in-gr">
-    <input class="mail"
-     type="email"
-     placeholder="Email"
-     required>
-    <input class ="phone"
-     type="tel"
-     placeholder="Phone"
-     required>
-   </section>
-   <section class="second">
-     <div class="investor">
-      What type of investor are you?
-     </div>
-     </section>
-     <section class="second">
-     <div class="investor-sub">
-      Select the type of investor you are below.
+      <div class="read-more">Читать далее</div>
+      <div class="right-img"></div>
+    </main>
+    <section>
+      <div class="brands">
+    <p class="fixing-brands">
+      Ремонт техники различных брендов
+    </p>
+    <ul class="brands-list">
+      <li class="lenovo"></li>
+      <li class="samsung"></li>
+      <li class="apple"></li>
+      <li class="viewsonic"></li>
+      <li class="bosch"></li>
+      <li class="hp"></li>
+      <li class="acer"></li>
+      <li class="sony"></li>
+    </ul>
+    <p class="showall">
+      Показать все
+    </p>
+</div>
+<div class="tec-type">
+  <p class="fixing-tec-type">
+    Ремонт различных видов техники
+  </p>
+  <ul class="types">
+    <li class="laptop"></li>
+    <li class="tab"></li>
+    <li class="pc"></li>
+    <li class="monitor"></li>
+  </ul>
+  <p class="showall">
+      Показать все
+    </p>
+</div>
+    </section>
+    <section class="price-list">
+      <p class="price">
+        цены на услуги
+      </p>
+      <ul class="services">
+        <li class="first">Ремонтные услуги</li>
+        <li>Замена дисплея</li>
+        <li>Замена полифонического динамика</li>
+        <li>Тестирование с выдачей технического заключения</li>
+        <li>Замена программного обеспечения</li>
+        <li></li>
+      </ul>
+      <ul class="prices">
+        <li class="first">Цена</li>
+        <li>Бесплатно</li>
+        <li>1 000 ₽</li>
+        <li>1 000 ₽</li>
+        <li>1 000 ₽</li>
+        <li>1 000 ₽</li>
+      </ul>
+      <ul class="time">
+        <li class="first">Срок</li>
+        <li>30 мин</li>
+        <li>30-120 мин</li>
+        <li>30-120 мин</li>
+        <li>30-120 мин</li>
+        <li>30-120 мин</li>
+      </ul>
+      <ul class="buttons">
+        <li class="first"></li>
+        <li>Заказать</li>
+        <li>Заказать</li>
+        <li>Заказать</li>
+        <li>Заказать</li>
+        <li>Заказать</li>
+      </ul>
+      <div class="price-comment">
+Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
       </div>
+      <p class="commertion">
+        Получить коммерческое предложение
+      </p>
     </section>
-    <section class="radio-gr">
-        <label><input type="radio" name="investor" checked /> Individual <span class="icon">&#x1F6C8;</span></label>
-        <label><input type="radio" name="investor" /> Business <span class="icon">&#x1F6C8;</span></label>
-        <label><input type="radio" name="investor" /> IRA <span class="icon">&#x1F6C8;</span></label>
-        <label><input type="radio" name="investor" /> Trust <span class="icon">&#x1F6C8;</span></label>
-    </section>
-    <section  class="i">
-     <div>
-      I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
-     </div>
-    </section>
-    <section class="box">
-      <label class="checkbox">
-       <input class="check-input" type="checkbox" required> <span class ="end">I agree to the terms and receiving notifications from iintoo 
-      <a href="#"> View full terms</a></span>
-      </label>
-    </section>
-     <form>
-       <button class="Account-b">
-       Create Account
-       </button>
-     </form>
-   </main>
-</body>
+    <footer class="end">
+      <div class="apesong">© 2019 CPS <br>
+        Разработано командой Apesong </div>
+<div class="politic">
+  Политика конфиденциальности
+</div>
+<div class="public-inf">
+  Информация, размещенная на данной странице, не является публичной офертой
+</div>
+    </footer>
+  </body>
 </html>
